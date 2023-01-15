@@ -61,7 +61,8 @@ header {
 
 /*---------------------------
 ---------Button style----------*/
-.primary-btn,.primary-btn2 {
+.primary-btn,
+.primary-btn2 {
   width: 180px;
   height: 64px;
   background: #FF900E;
@@ -78,13 +79,14 @@ header {
   background-color: #5c3202;
   transition: ease-in .4s;
 }
-.primary-btn2{
- width: 342px;
-height: 200px;
-left: 880px;
-top: 3104px;
-background: #FF900E;
-border-radius: 8px; 
+
+.primary-btn2 {
+  width: 342px;
+  height: 200px;
+  left: 880px;
+  top: 3104px;
+  background: #FF900E;
+  border-radius: 8px;
 }
 
 /*-------------------------
@@ -107,76 +109,149 @@ border-radius: 8px;
   margin-left: 73px;
 }
 
-.Blog-titles,.space-g,.space-o {
+.Blog-titles,
+.space-g,
+.space-o {
   font-weight: 700;
   font-size: 45px;
   color: #131313;
 }
-.space-g{
+
+.space-g {
   color: #727272;
 }
-.space-o{
+
+.space-o {
   color: #FF900E;
 
 }
+
 /*-----------------------
 ----------Secend section------*/
-.sec-section-main-div{
+.sec-section-main-div {
   display: flex;
   margin-top: 90px;
   margin-left: 100px;
 }
-.sec-section-main-div1{
+
+.sec-section-main-div1 {
   margin-right: 15%;
 }
-.Blog-titless{
+
+.Blog-titless {
   border-left: solid #FF900E;
-    padding-left: 2%;
+  padding-left: 2%;
 }
-.feature-title{
-font-weight: 600;
-font-size: 20px;
-line-height: 23px;
-color: #131313;
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
 }
-.box-shedo{
+
+.box-shedo {
   background-color: #ffff;
-    padding: 3%;
-    margin-top: 3%;
-    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
-    border-radius: 15px;
+  padding: 3%;
+  margin-top: 3%;
+  box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+  border-radius: 15px;
 }
+
 .experience {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .architect-image {
-    width: 708px;
+  width: 708px;
 }
 
 .experience-button {
-    position: relative;
-    bottom: -858px;
-    right: 814px;
-    background-color: #FF900E;
-    width: 342px;
-height: 200px;
-    border: 0;
-    border-radius: 10px;
+  position: relative;
+  bottom: -858px;
+  right: 814px;
+  background-color: #FF900E;
+  width: 342px;
+  height: 200px;
+  border: 0;
+  border-radius: 10px;
 }
-.btn-t1{
-font-weight: 700;
-font-size: 65px;
-line-height: 70px;
-text-align: center;
-color: #FFFFFF;
+
+.btn-t1 {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+  text-align: center;
+  color: #FFFFFF;
 }
-.btn-t2{
+
+.btn-t2 {
   margin-top: -45px;
-font-weight: 500;
-font-size: 25px;
-line-height: 40px;
-text-align: center;
-color: #FFFFFF;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*--------------------
+----------Some Facts style------*/
+.some-facts {
+  margin-top: 70px;
+  margin-left: 5%;
+}
+
+.icon-image {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.awards-winning {
+  display: flexbox;
+  border: 2px solid #FF900E;
+  margin-left: 40px;
+  width: 178px;
+  transition: transform 2s;
+
+}
+
+.project-finished {
+  display: flexbox;
+  border: 2px solid #FF900E;
+  margin-left: 40px;
+  width: 178px;
+  transition: transform 2s;
+}
+
+.Clients-worked {
+  display: flexbox;
+  border: 2px solid #FF900E;
+  margin-left: 40px;
+  width: 178px;
+  transition: transform 2s;
+}
+
+.email {
+  display: flexbox;
+  border: 2px solid #FF900E;
+  margin-left: 40px;
+  width: 178px;
+  transition: transform 2s;
+}
+
+/* hover  */
+.email:hover,
+.awards-winning:hover,
+.project-finished:hover,
+.Clients-worked:hover {
+  border: 2px solid #FF900E;
+  width: 250px;
+  background-color: antiquewhite;
+}
+
+.facts {
+  margin-top: -30px;
 }
