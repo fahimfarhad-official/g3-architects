@@ -44,22 +44,24 @@ header {
   text-align: center;
   color: #131313;
 }
-.header-position{
+
+.header-position {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
 }
-.banner-img{
+
+.banner-img {
   margin-top: 50px;
-     margin-top: 50px;
-    width: 1100px;
-    height: 576px;
-    border-radius: 18px;
+  margin-top: 50px;
+  width: 1100px;
+  height: 576px;
+  border-radius: 18px;
 }
 
 /*---------------------------
 ---------Button style----------*/
-.primary-btn {
+.primary-btn,.primary-btn2 {
   width: 180px;
   height: 64px;
   background: #FF900E;
@@ -71,24 +73,110 @@ header {
   text-align: center;
   color: #FFFFFF;
 }
-.primary-btn:hover{
- background-color: #5c3202;
- transition: ease-in .4s;
+
+.primary-btn:hover {
+  background-color: #5c3202;
+  transition: ease-in .4s;
 }
+.primary-btn2{
+ width: 342px;
+height: 200px;
+left: 880px;
+top: 3104px;
+background: #FF900E;
+border-radius: 8px; 
+}
+
 /*-------------------------
 --------section-1-Style----------*/
 
-.fast-section-imgs{
-margin-top: 85px;
- margin-left: 200px;
- gap: 24px;
+.fast-section-imgs {
+  margin-top: 85px;
+  margin-left: 200px;
+  gap: 24px;
 }
-.fast-section{
+
+.fast-section {
   display: flex;
   margin-top: 30px;
   margin-left: 300px;
 }
-.fast-section-blog{
+
+.fast-section-blog {
   margin-top: 262px;
   margin-left: 73px;
+}
+
+.Blog-titles,.space-g,.space-o {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.space-g{
+  color: #727272;
+}
+.space-o{
+  color: #FF900E;
+
+}
+/*-----------------------
+----------Secend section------*/
+.sec-section-main-div{
+  display: flex;
+  margin-top: 90px;
+  margin-left: 100px;
+}
+.sec-section-main-div1{
+  margin-right: 15%;
+}
+.Blog-titless{
+  border-left: solid #FF900E;
+    padding-left: 2%;
+}
+.feature-title{
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #131313;
+}
+.box-shedo{
+  background-color: #ffff;
+    padding: 3%;
+    margin-top: 3%;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    border-radius: 15px;
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.architect-image {
+    width: 708px;
+}
+
+.experience-button {
+    position: relative;
+    bottom: -858px;
+    right: 814px;
+    background-color: #FF900E;
+    width: 342px;
+height: 200px;
+    border: 0;
+    border-radius: 10px;
+}
+.btn-t1{
+font-weight: 700;
+font-size: 65px;
+line-height: 70px;
+text-align: center;
+color: #FFFFFF;
+}
+.btn-t2{
+  margin-top: -45px;
+font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
 }
