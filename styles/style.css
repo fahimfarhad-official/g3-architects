@@ -1,9 +1,11 @@
 /*------------------
 ----Primary Font------*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
-*{
+
+* {
   margin: 0;
 }
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -32,20 +34,22 @@ nav {
 li {
   margin-right: 25px;
 }
+
 /*------------------------
 --------------Nav media-query-----------*/
 @media screen and (max-width: 572px) {
-  nav{
+  nav {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
   }
-  .nav-menu{
+
+  .nav-menu {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: end;
   }
-  
+
 }
 
 /* --------------------------
@@ -70,11 +74,12 @@ header {
 
 .banner-img {
   width: 90%;
-    height: 90%;
-    margin-bottom: 2%;
-    margin-top: 2%;
+  height: 90%;
+  margin-bottom: 2%;
+  margin-top: 2%;
   border-radius: 7px;
 }
+
 /*---------------------------
 ---------Button style----------*/
 .primary-btn,
@@ -141,22 +146,26 @@ header {
   color: #FF900E;
 
 }
+
 /*------------------------
 --------------section-1 media-query-----------*/
-@media screen and (max-width: 572px){
-  .fast-section{
-        flex-direction: column-reverse;
+@media screen and (max-width: 572px) {
+  .fast-section {
+    flex-direction: column-reverse;
   }
+
   .fast-section-blog {
     margin-top: -10%;
     margin-left: -98%;
   }
+
   .fast-section-imgs {
     margin-top: 25%;
     margin-left: -85%;
     gap: 30px
+  }
 }
-}
+
 /*-----------------------
 ----------Secend section------*/
 .sec-section-main-div {
@@ -184,6 +193,7 @@ header {
   box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
   border-radius: 15px;
 }
+
 .experience {
   display: flex;
   flex-direction: column;
@@ -191,7 +201,7 @@ header {
 
 .architect-image {
   width: 580px;
-margin-left: 284px;
+  margin-left: 284px;
 }
 
 .experience-button {
@@ -199,7 +209,7 @@ margin-left: 284px;
   bottom: -858px;
   right: 695px;
   background-color: #FF900E;
-  width: 342px;
+  width: 372px;
   height: 200px;
   border: 0;
   border-radius: 10px;
@@ -214,42 +224,46 @@ margin-left: 284px;
 }
 
 .btn-t2 {
-  margin-top: -45px;
+  margin-top: -25px;
   font-weight: 500;
   font-size: 25px;
   line-height: 40px;
   text-align: center;
   color: #FFFFFF;
 }
+
 /*------------------------
 --------------Secend section media-query-----------*/
-@media screen and (max-width: 572px){
+@media screen and (max-width: 572px) {
   .sec-section-main-div {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-.sec-section-main-div1{
-  max-height: max-content;
-  width: 60%;
-}
-.architect-image {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .sec-section-main-div1 {
+    max-height: max-content;
+    width: 60%;
+  }
+
+  .architect-image {
     margin-top: 20px;
     margin-left: 0%;
     height: 90%;
     width: 90%;
     margin-bottom: -800px;
-}
-.experience-button {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-content: center;
-  margin-left: 750px;
-  margin-bottom: 820px;
-  background-color: #FF900E;
-  width: 322px;
-  height: 180px;
-  border-radius: 40px;
-}
+  }
+
+  .experience-button {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    margin-left: 750px;
+    margin-bottom: 820px;
+    background-color: #FF900E;
+    width: 322px;
+    height: 180px;
+    border-radius: 40px;
+  }
 }
 
 /*--------------------
@@ -299,16 +313,18 @@ margin-left: 284px;
   width: 178px;
   transition: transform 2s;
 }
+
 /*------------------------
 --------------Some Facts media-query-----------*/
-@media screen and (max-width: 572px){
+@media screen and (max-width: 572px) {
   .icon-image {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  margin-top: 3%;
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3%;
+    gap: 20px;
+  }
 }
-}
+
 /* hover  */
 .email:hover,
 .awards-winning:hover,
@@ -336,18 +352,21 @@ margin-left: 284px;
   margin-right: 10%;
   margin-top: 4%;
 }
+
 /*------------------------
 --------------Some Facts media-query-----------*/
-@media screen and (max-width: 572px){
+@media screen and (max-width: 572px) {
   .sponspors {
-  margin-left: 20%;
+    margin-left: 20%;
+  }
+
+  .sponsers-logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 60px;
+  }
 }
-.sponsers-logo {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  margin: 60px;
-}
-}
+
 /*-------------------------
 --------------footer section----------*/
 .footer-main {
@@ -365,17 +384,18 @@ margin-left: 284px;
   border: 0;
   padding: 1%;
 }
+
 /*------------------------
 --------------Some Facts media-query-----------*/
-@media screen and (max-width: 572px){
- .all-section {
-  background-color: #FFF4E7;
-  ;
-  text-align: center;
-  width: 800px;
-  height: 80px;
-  border: 0;
-  padding: 1%;
-  border-radius: 5px;
-}
+@media screen and (max-width: 572px) {
+  .all-section {
+    background-color: #FFF4E7;
+    ;
+    text-align: center;
+    width: 800px;
+    height: 80px;
+    border: 0;
+    padding: 1%;
+    border-radius: 5px;
+  }
 }
