@@ -161,7 +161,7 @@ header {
 
   .fast-section-imgs {
     margin-top: 25%;
-    margin-left: -85%;
+    margin-left: -120%;
     gap: 30px
   }
 }
@@ -242,14 +242,12 @@ header {
 
   .sec-section-main-div1 {
     max-height: max-content;
-    width: 60%;
+    width: 40%;
   }
 
   .architect-image {
     margin-top: 20px;
-    margin-left: 0%;
-    height: 90%;
-    width: 90%;
+    margin-left: -15%;
     margin-bottom: -800px;
   }
 
